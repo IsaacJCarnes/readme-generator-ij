@@ -56,3 +56,5 @@ module.exports = generateMarkdown;
 ## How to Contribute
 ## Tests
 */
+
+//MIT GNU APACHE
