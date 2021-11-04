@@ -16,11 +16,11 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if(license == "APACHE"){
-    return "https://api.github.com/licenses/apache-2.0";
+    return "https://opensource.org/licenses/Apache-2.0";
   } else if (license == "MIT"){
-    return "https://api.github.com/licenses/mit";
+    return "https://opensource.org/licenses/MIT";
   } else if (license == "GNU"){
-    return "https://api.github.com/licenses/gpl-3.0";
+    return "https://img.shields.io/badge/License-GPLv3-blue.svg";
   } else {
     return "";
   }
@@ -35,30 +35,30 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-    ## Description
-    ${data.description}
-    ## Table of Contents
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
-    ## Installation
-    ${data.installation}
-    ## Usage
-    ${data.usage}
-    ## License
-    `+renderLicenseSection(data.license)+`
-    ## Contributing
-    ${data.contributing}
-    ## Tests
-    ${data.tests}
-    ## Questions
-    You can find me on [Github](https://github.com/${data.github})
-    You can email me at ${data.email}
-
-  `;
+## Description
+`+renderLicenseSection(data.license)+`\n
+${data.description}
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+## Installation
+${data.installation}
+## Usage
+${data.usage}
+## License
+Using the ${data.license} license
+## Contributing
+${data.contributing}
+## Tests
+${data.tests}
+## Questions
+You can find me on [Github](https://github.com/${data.github})\n
+You can email me at ${data.email}
+`;
 }
 
 module.exports = generateMarkdown;

@@ -1,25 +1,28 @@
-# th
-    ## Description
-    tg
-    ## Table of Contents
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
-    ## Installation
-    tf
-    ## Usage
-    th
-    ## License
-    [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://api.github.com/licenses/gpl-3.0)
-    ## Contributing
-    ta
-    ## Tests
-    we
-    ## Questions
-    You can find me on [Github](https://github.com/IsaacJCarnes)
-    You can email me at ia
+# Sample Title
+## Description
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Sample Description
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+## Installation
+Download Sample Package
+## Usage
+Sample Usage
+## License
+Using the MIT license
+## Contributing
+Sample Contribution
+## Tests
+Sample Tests
+## Questions
+You can find me on [Github](https://github.com/SampleUsername)
+
+You can email me at sampleEmail@gmail.com
 
   
