@@ -1,6 +1,6 @@
-# tw
+# th
     ## Description
-    tr
+    tg
     ## Table of Contents
     - [Installation](#installation)
     - [Usage](#usage)
@@ -9,17 +9,17 @@
     - [Tests](#tests)
     - [Questions](#questions)
     ## Installation
-    te
-    ## Usage
-    td
-    ## License
-    [APACHE](https://api.github.com/licenses/apache-2.0)
-    ## Contributing
     tf
+    ## Usage
+    th
+    ## License
+    [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://api.github.com/licenses/gpl-3.0)
+    ## Contributing
+    ta
     ## Tests
-    tg
+    we
     ## Questions
-    You can find me on github at tv
-    You can email me at tb
+    You can find me on [Github](https://github.com/IsaacJCarnes)
+    You can email me at ia
 
   
