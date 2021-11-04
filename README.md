@@ -12,6 +12,8 @@ Type 'node index' to run the application. Then answer the question as they appea
 
 This video details how to use the application
 
+![Video](https://github.com/IsaacJCarnes/readme-generator-ij/blob/master/utils/usageVideo.webm "Usage Video")
+
 ## Questions
 You can find me on [Github](https://github.com/IsaacJCarnes)
 
